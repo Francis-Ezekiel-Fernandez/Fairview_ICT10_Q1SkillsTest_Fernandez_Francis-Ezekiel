@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q3 Practice 3</title>
+    <title>Q1 Skills Test</title>
 
     <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
     <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
@@ -15,51 +15,61 @@
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 </head>
 <body>
-
-    <h1>PY-Numbers</h1>
+<center>
     <br>
+    <h1>ZeekCubeShop</h1>
 
     <form action="">
-        <input type="text"  id="input1" placeholder="Enter a number">
-        <br>
-        <input type="text"  id="input2" placeholder="Enter a number">
-        <br>
-        <button type="button" py-click="adding_numbers">Solve</button>
-        
-        <br>
-        <input type="checkbox" id="item1" value="129">
-            <label for="item1" id="label1">Spanish Latte</label>
-            <br>
-<input type="radio" id="regular" name="size" value="0" checked>
-                <label for="regular">Regular (+ Php0)</label>
 
-            <input type="radio" id="large" name="size" value="30" checked>
-                <label for="regular">Large (+ Php30)</label>
+        <h1>Gan</h1>
+        <br>
+        <input type="checkbox" id="item1" value="2000">
+        <label for="item1" id="label1">Gan 12 Maglev</label>    
+
             <br>
+            <br>
+
+        <input type="checkbox" id="item2" value="2800">
+        <label for="item2" id="label2">Gan 17 MagDrive</label>   
+
+            <br>
+            <br>
+
+        <input type="checkbox" id="item3" value="1800">
+        <label for="item3" id="label3">Gan V100 Maglev UV</label>    
+        
+            <br><br>
+            <h1>Moyu</h1>
+            <br>
+        <input type="checkbox" id="item4" value="2750">
+        <label for="item4" id="label4">Moyu Super Weilong V2</label>    
+        
+            <br>
+            <br>
+        <input type="checkbox" id="item5" value="2500">
+        <label for="item5" id="label5">Moyu Weilong V11 SE</label>
+        
+            <br>
+            <br>
+        <input type="checkbox" id="item6" value="1300">
+        <label for="item6" id="label6">Moyu RS3M V5</label>   
+        
+            <br><br>
+
             <button type="button" py-click="create_order">Create Order</button>
     
             <br>
-        <label for="Coffee">Coffee</label>
-        <br>
-        <select id="coffee">
-            <option value="0">--Select Here--</option>
-            <option value="99">Americano</option>
-            <option value="129">Spanish Latte</option>
-            <option value="159">Affogato</option>
-        </select>
-        <br>
-            <button type="button" py-click="place_order">Place Order</button>
-    
-            <br>
+   
+        </form><br>
+<h1>-----Receipt:-----</h1><br>
 
-
-                        
-    
-        </form>
-
+    <h3>Subtotal:</h3>
     <div id="output1"></div> 
+    <h3>Tax:</h3>
     <div id="output2"></div> 
+    <h3>Grandtotal:</h3>
     <div id="output3"></div> 
+</center>
     <script type="py" src="main.py"></script>
 </body>
 </html>
